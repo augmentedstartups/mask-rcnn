@@ -17,9 +17,7 @@ Hey guys and welcome back, in this lecture im going  to show you how to install 
 6.	Remove TensorFlow from that text file because we want to use TensorFlow-GPU.
 
 # Download and Install CUDA
-1.	TensorFlow GPU requires CUDA. So, we will install CUDA 9.0 for Windows 10. With a help of this link you can download CUDA 9.0 for windows.
-
-https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda_9.0.176_win10-exe
+1.	TensorFlow GPU requires CUDA. So, we will install CUDA 9.0 for Windows 10. With a help of this link you can download CUDA 9.0 for windows. - https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda_9.0.176_win10-exe
 
 2.	While CUDA is downloading we will install other dependency.
   
