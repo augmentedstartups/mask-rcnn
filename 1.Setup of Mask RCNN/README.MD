@@ -25,7 +25,7 @@ Hey guys and welcome back, in this lecture im going  to show you how to install 
 # Installing the Dependencies
 •	If System has installed Anaconda, then activate anaconda’s environment to install python dependencies otherwise user can directly install dependencies using “pip”.
 
-•	Command: “pip install –r requiments.txt” to install dependencies
+•	Command: ```pip install –r requiments.txt``` to install dependencies
 
 •	Mask-RCNN also requires cocoapi. To install cocoapi go to: https://github.com/philferriere/cocoapi
 
@@ -33,40 +33,40 @@ Hey guys and welcome back, in this lecture im going  to show you how to install 
 
 •	Go to: "PythonAPI" folder
 
-•	Run in CMD: “python setup.py build_ext install”.
+•	Run in CMD: ```python setup.py build_ext install```.
 
 •	Now, Install CUDA using Executable file.
 
-•	After that, Install TensorFlow GPU using: “pip install tensorflow-gpu”.
+•	After that, Install TensorFlow GPU using: ```pip install tensorflow-gpu```.
 
 
 # Running Mask RCNN demo
 
-•	Run command: “jupyter-notebook”.
+•	Run command: ```jupyter-notebook```.
 
 •	Navigate to samples folder open demo.jpynb.
 
 •	Select download as python option from File menu. 
 
-•	Comment line no.32. “get_ipython().run_line_magic(‘matplotlib’,’inline’)”.
+•	Comment line no.32. ```get_ipython().run_line_magic(‘matplotlib’,’inline’)```.
 
-•	Run python file. “python demo.py”.
+•	Run python file. ```python demo.py```.
  
 # Possible Errors and solutions
-•	Error while running command: “pip install –r requirments.txt”
+•	Error while running command: ```pip install –r requirments.txt```
 
 •	Go to: Windows binaries [Link]
 
 •	Download Shapely according to python version.
 
-•	Run CMD: “pip install downloaded file.whl”.
+•	Run CMD: ```pip install downloaded file.whl```.
 
-•	Re run command: “pip install –r requiments.txt”
+•	Re run command: ```pip install –r requiments.txt```
 
 •	Cython error while installing cocoapi.
 
 •	If system has installed cython and reinstall cython.
 
-•	Command to uninstall Cython: “conda uninstall cython”.
+•	Command to uninstall Cython: ```conda uninstall cython```.
 
-•	Command to install Cython: “conda install cython”.
+•	Command to install Cython: ```conda install cython```.
