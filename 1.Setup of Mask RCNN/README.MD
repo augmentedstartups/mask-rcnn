@@ -10,7 +10,7 @@ Hey guys and welcome back, in this lecture im going  to show you how to install 
 
 •	This repository has "requirements.txt" file which contains dependencies of Mask-RCNN. I will have my full requirements file on my github page in the link below, which will help save you time.
 
-•	Also download pretrained model from here: mask_rcnn_coco
+•	Also download pretrained model from here: mask_rcnn_coco - https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5
 
 •	Move downloaded model to MASK_RCNN folder
 
@@ -28,7 +28,7 @@ https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda_9.0.176
 
 •	Command: ```pip install –r requiments.txt``` to install dependencies
 
-•	Mask-RCNN also requires cocoapi. To install cocoapi go to: https://github.com/philferriere/cocoapi
+•	Mask-RCNN also requires cocoapi. To install cocoapi go to - https://github.com/philferriere/cocoapi
 
 •	Open: "cocoapi-master" folder
 
@@ -56,7 +56,7 @@ https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda_9.0.176
 # Possible Errors and solutions
 •	Error while running command: ```pip install –r requirments.txt```
 
-•	Go to: Windows binaries [Link]
+•	Go to: Windows binaries - https://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely
 
 •	Download Shapely according to python version.
 
@@ -66,7 +66,7 @@ https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda_9.0.176
 
 •	Cython error while installing cocoapi.
 
-•	If system has installed cython and reinstall cython.
+•	If system has installed Cython and reinstall Cython.
 
 •	Command to uninstall Cython: ```conda uninstall cython```
 
