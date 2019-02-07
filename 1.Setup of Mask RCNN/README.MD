@@ -4,7 +4,7 @@ Hey guys and welcome back, in this lecture im going  to show you how to install 
 # Github Repo Download
 •	 Download Mask-RCNN repository for GitHub. [Link]
 
-'''Use git clone https://github.com/matterport/Mask_RCNN.git'''
+```Use git clone https://github.com/matterport/Mask_RCNN.git```
 
 •	Go to: Mask_RCNN folder
 
