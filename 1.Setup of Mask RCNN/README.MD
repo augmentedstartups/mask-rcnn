@@ -2,7 +2,7 @@
 Hey guys and welcome back, in this lecture im going  to show you how to install all the dependencies as well as all the tools required to get Mask RCNN up and running. This lecture we will show you how to process a single image and the next lecture I will show you hot to get it working on video. Okay so  lets get right into it. 
 
 # Github Repo Download
-•	 Download Mask-RCNN repository for GitHub. [Link]
+•	 Download Mask-RCNN repository for GitHub - https://github.com/matterport/Mask_RCNN
 
 ```Use git clone https://github.com/matterport/Mask_RCNN.git```
 
@@ -16,9 +16,10 @@ Hey guys and welcome back, in this lecture im going  to show you how to install 
 
 •	Remove TensorFlow from that text file because we want to use TensorFlow-GPU.
 
-•	TensorFlow GPU requires CUDA. So, we will install CUDA 9.0 for Windows 10.[Link]. With a help of this link you can download CUDA 9.0 for windows.
-
 # Download and Install CUDA
+•	TensorFlow GPU requires CUDA. So, we will install CUDA 9.0 for Windows 10. With a help of this link you can download CUDA 9.0 for windows.
+
+https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda_9.0.176_win10-exe
 
 •	While CUDA is downloading we will install other dependency.
   
@@ -48,9 +49,9 @@ Hey guys and welcome back, in this lecture im going  to show you how to install 
 
 •	Select download as python option from File menu. 
 
-•	Comment line no.32. ```get_ipython().run_line_magic(‘matplotlib’,’inline’)```.
+•	Comment line no.32. ```get_ipython().run_line_magic(‘matplotlib’,’inline’)```
 
-•	Run python file. ```python demo.py```.
+•	Run python file. ```python demo.py```
  
 # Possible Errors and solutions
 •	Error while running command: ```pip install –r requirments.txt```
@@ -59,7 +60,7 @@ Hey guys and welcome back, in this lecture im going  to show you how to install 
 
 •	Download Shapely according to python version.
 
-•	Run CMD: ```pip install downloaded file.whl```.
+•	Run CMD: ```pip install downloaded file.whl```
 
 •	Re run command: ```pip install –r requiments.txt```
 
@@ -67,6 +68,6 @@ Hey guys and welcome back, in this lecture im going  to show you how to install 
 
 •	If system has installed cython and reinstall cython.
 
-•	Command to uninstall Cython: ```conda uninstall cython```.
+•	Command to uninstall Cython: ```conda uninstall cython```
 
-•	Command to install Cython: ```conda install cython```.
+•	Command to install Cython: ```conda install cython```
