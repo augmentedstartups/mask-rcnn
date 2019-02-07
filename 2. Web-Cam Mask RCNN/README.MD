@@ -2,11 +2,15 @@
 
 To run Mask RCNN demo on video file we need to covert masked image in OpenCV format.
 
+## Get all the files from Github
+
 1.	First, we download script name “visualize_cv2.py” from GitHub. 
 
 https://github.com/markjay4k/Mask-RCNN-series/blob/master/visualize_cv2.py
 
 2.	Put this file in Mask-RCNN folder.
+
+## Make changes to files
 
 3.	This file uses other Mask RCNN library so we have to change in line no 6 and 7. Instead of ```import utils``` we will use ```from mrcnn import utils```.
 
@@ -18,7 +22,9 @@ https://github.com/markjay4k/Mask-RCNN-series/blob/master/visualize_cv2.py
 
 7.	To get command line input from user we use ```argv```.
 
-8.	Then, initialize Video capture function of OpenCV.
+## Run Mask RCNN 
+
+8.	Then, initialize Video capture function of OpenCV. Ensure your web-cam is connected.
 
 9.	After that in while loop read camera or video frames and passes to the model.
 
