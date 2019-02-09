@@ -1,8 +1,15 @@
 # Mask RCNN Live video demo
 
+Hey guys and welcome back, In the last lecture we spent setting up all the required libraries and dependencies to get mask rcnn in to process a single image. In this lecture I will show you how to set up real-time mask rcnn using either a webcam or process recorded video.
+
+Okay so lets get started on real time image segmentation on Windows 10.
+
+
 To run Mask RCNN demo on video file we need to covert masked image in OpenCV format.
 
 ## Get all the files from Github
+
+To run Mask RCNN demo on video file we need to convert the masked image code to OpenCV format.
 
 1.	First, we download script name “visualize_cv2.py” from GitHub. 
 
