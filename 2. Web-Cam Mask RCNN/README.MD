@@ -29,10 +29,16 @@ https://github.com/markjay4k/Mask-RCNN-series/blob/master/visualize_cv2.py
 
 7.	To get command line input from user we use ```argv```.
 
-## Run Mask RCNN 
-
 8.	Then, initialize Video capture function of OpenCV. Ensure your web-cam is connected.
 
 9.	After that in while loop read camera or video frames and passes to the model.
 
 10.	```display_instances``` function will apply mask on input image and return masked image.
+
+## Run Mask RCNN 
+To run the code, all you have to do is ```cd``` into the Mask RCNN folder and run the following command:
+
+11.	```python video_demo.py 0```  for webcam or
+
+12.	```python video_demo.py video.mp4```  to run on a video (replace video.mp4 with the actual video file name)
+
