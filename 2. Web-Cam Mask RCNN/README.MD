@@ -7,7 +7,7 @@ Okay so lets get started on real time image segmentation on Windows 10.
 
 To run Mask RCNN demo on video file we need to covert masked image in OpenCV format.
 
-## Get all the files from Github
+## Get all the Files from Github
 
 To run Mask RCNN demo on video file we need to convert the masked image code to OpenCV format.
 
@@ -17,7 +17,7 @@ https://github.com/markjay4k/Mask-RCNN-series/blob/master/visualize_cv2.py
 
 2.	Put this file in Mask-RCNN folder.
 
-## Make changes to files
+## Make Changes to Files or Download the Code
 
 3.	This file uses other Mask RCNN library so we have to change in line no 6 and 7. Instead of ```import utils``` we will use ```from mrcnn import utils```.
 
@@ -34,6 +34,9 @@ https://github.com/markjay4k/Mask-RCNN-series/blob/master/visualize_cv2.py
 9.	After that in while loop read camera or video frames and passes to the model.
 
 10.	```display_instances``` function will apply mask on input image and return masked image.
+
+If you rather not follow along with the code you can copy these two python files at this location:
+https://github.com/reigngt09/mask-rcnn/tree/master/2.%20Web-Cam%20Mask%20RCNN
 
 ## Run Mask RCNN 
 To run the code, all you have to do is ```cd``` into the Mask RCNN folder and run the following command:
