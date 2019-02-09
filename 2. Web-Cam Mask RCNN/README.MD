@@ -1,4 +1,4 @@
-# Mask RCNN Live video demo
+# Mask RCNN Live Video Demo
 
 Hey guys and welcome back, In the last lecture we spent setting up all the required libraries and dependencies to get mask rcnn in to process a single image. In this lecture I will show you how to set up real-time mask rcnn using either a webcam or process recorded video.
 
