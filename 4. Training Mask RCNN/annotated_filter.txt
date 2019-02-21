@@ -1,0 +1,35 @@
+[
+  {
+    "dst": "$sample",
+    "src": [
+      "mask_rcnn/*"
+    ],
+    "action": "data",
+    "settings": {
+      "classes_mapping": "default"
+    }
+  },
+  {
+    "dst": [
+      "$img_with_obj",
+      "$img_zero_obj"
+    ],
+    "src": [
+      "$sample"
+    ],
+    "action": "if",
+    "settings": {
+      "condition": {
+        "min_objects_count": 1
+      }
+    }
+  },
+  {
+    "dst": "potholes_annotated",
+    "src": [
+      "$img_with_obj"
+    ],
+    "action": "supervisely",
+    "settings": {}
+  }
+]
