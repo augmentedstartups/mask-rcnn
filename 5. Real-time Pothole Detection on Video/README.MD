@@ -8,7 +8,11 @@ Now just note that the results you see here are not prefect as we trained our de
 Okay so let’s pick up where we left off from the last lecture. 
 
 ## Download the Model
-First we need to download the model, you go over here and click download. Place the extracted model in your python Mask RCNN folder.
+First we need to download the model, you go over here and click download.
+
+INPUT_VIDEO - http://augmentedstartups.info/pothole-input-video
+
+Place the extracted model in your python Mask RCNN folder.
 
 ## Adapting the Code
 Firstly in the visualize_cv2.py we need to change our class names to match our application. Highlight these lines under the class_names list and let’s comment it out. 
@@ -26,7 +30,9 @@ Firstly in the visualize_cv2.py we need to change our class names to match our a
 
 In Anaconda prompt or command prompt and within our Mask RCNN directory, lets type in:
 
-*	```python video_demo.py``` and then the name of the video which is input.avi and press enter.
+*	```python video_demo.py``` and then the name of the video which is ```input.avi``` and press enter. 
+
+So it would be: ```python video_demo.py input.avi```
 
 We’ll just wait for it to initiate before it executes the real time instance segmentation on the video.
 Now as you can see are detecting some potholes. As mentioned earlier, that this model will not perform adequately for practical applications, however it shows the proof of concept. If we had more annotated images in our dataset (say over 2000 images) we can see some improvement.
