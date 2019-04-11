@@ -5,10 +5,10 @@ First we are going to go to Google type in Anaconda download and click on the fi
 
 * Select Anaconda for windows and download Python 3.7
   * And then you can save it  anywhere
-*	Once it has downloaded you can open up the installer and follow the instructions.
-   *	Everything can be left default except for advance options where we recommend that you Add Anaconda to my PATH Environmental variable 
-   *	Click next and let it install		
-*	Now open Anaconda prompt or command from windows start menu.
+* Once it has downloaded you can open up the installer and follow the instructions.
+  *	Everything can be left default except for advance options where we recommend that you Add Anaconda to my PATH Environmental variable 
+  *	Click next and let it install		
+* Now open Anaconda prompt or command from windows start menu.
 
 ## Creating the Environment 
 
@@ -33,4 +33,3 @@ You should get the response that is displayed over if everything was imported co
 
 Okay that it is from me. In the next lecture I will show you how to setup and run Mask RCNN. 
 
-Thank you for watching and we’ll see you in the next lecture
