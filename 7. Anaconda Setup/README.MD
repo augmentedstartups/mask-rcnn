@@ -1,4 +1,4 @@
-# Installation guide for Anaconda
+# Installation Guide for Anaconda
 Hey guys and welcome back. This lecture is going to be a quick lesson on how to install Anaconda for Mask RCNN. Lets get started. 
 First we are going to go to Google type in Anaconda download and click on the first link.
 ## Installing Anaconda 
@@ -17,17 +17,17 @@ Now type in this command :
  ```conda env create –f file_name.yml```.
  
 which will create a new conda environment using .yml file.  This .yml file you will find in the github repo attached to this video. Ensure also that you are in the correct folder before we 
- *	Press enter to execute.
-*	Now to activate this new conda environment we execute the following command
+  *	Press enter to execute.
+* Now to activate this new conda environment we execute the following command
 ```conda activate mask_rcnn```
-   *	You should see your new environment activate showing mask_rcnn in brackets.
+  *	You should see your new environment activate showing mask_rcnn in brackets.
  
 ## Installing the Dependencies
 
-*	Lastly we shall install all the other dependencies using the pip command.
- *	 ```pip install –r requirments.txt```
-*	To test if everything is working we can type in the command
- *	```Python demo.py```
+* Lastly we shall install all the other dependencies using the pip command.
+  *	 ```pip install –r requirments.txt```
+* To test if everything is working we can type in the command
+  *	```Python demo.py```
 You should get the response that is displayed over if everything was imported correctly. 
 
 
