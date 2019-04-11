@@ -3,10 +3,7 @@ Hey guys and welcome back. This lecture is going to be a quick lesson on how to 
 First we are going to go to Google type in Anaconda download and click on the first link.
 ## Installing Anaconda 
 
-* Item 2
-  * Item 2a
-
-* Item 2	Select Anaconda for windows and download Python 3.7
+* Select Anaconda for windows and download Python 3.7
   * And then you can save it  anywhere
 *	Once it has downloaded you can open up the installer and follow the instructions.
    *	Everything can be left default except for advance options where we recommend that you Add Anaconda to my PATH Environmental variable 
