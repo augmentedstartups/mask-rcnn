@@ -18,7 +18,8 @@ Now type in this command :
  
 which will create a new conda environment using .yml file.  This .yml file you will find in the github repo attached to this video. Ensure also that you are in the correct folder before we 
   *	Press enter to execute.
-* Now to activate this new conda environment we execute the following command
+* Now to activate this new conda environment we execute the following command:
+
 ```conda activate mask_rcnn```
   *	You should see your new environment activate showing mask_rcnn in brackets.
  
