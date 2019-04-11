@@ -4,22 +4,23 @@ First we are going to go to Google type in Anaconda download and click on the fi
 ## Installing Anaconda 
 
 *	Select Anaconda for windows and download Python 3.7
- *	And then you can save it  anywhere
+   *	And then you can save it  anywhere
 *	Once it has downloaded you can open up the installer and follow the instructions.
- *	Everything can be left default except for advance options where we recommend that you Add Anaconda to my PATH Environmental variable 
- *	Click next and let it install		
-•	Now open Anaconda prompt or command from windows start menu.
+   *	Everything can be left default except for advance options where we recommend that you Add Anaconda to my PATH Environmental variable 
+   *	Click next and let it install		
+*	Now open Anaconda prompt or command from windows start menu.
 
 ## Creating the Environment 
 
-•	Now type in this command :
+Now type in this command :
 
  ```conda env create –f file_name.yml```.
  
 which will create a new conda environment using .yml file.  This .yml file you will find in the github repo attached to this video. Ensure also that you are in the correct folder before we 
  *	Press enter to execute.
-*	Now to activate this new conda environment we execute the following command```conda activate mask_rcnn```
- *	You should see your new environment activate showing mask_rcnn in brackets.
+*	Now to activate this new conda environment we execute the following command
+```conda activate mask_rcnn```
+   *	You should see your new environment activate showing mask_rcnn in brackets.
  
 ## Installing the Dependencies
 
