@@ -1,0 +1,2 @@
+imgaug==0.2.8
+git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI
